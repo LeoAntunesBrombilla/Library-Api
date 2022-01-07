@@ -30,4 +30,15 @@ jobs:
     - run: npm run build 
     - run: npm test
 
+  deploy: 
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "library-in-node-api"
+          heroku_email: "antunes.b.leonardo@gmail.com"
+
   
