@@ -11,13 +11,6 @@ on:
 
 jobs:
 
-  Lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: wearerequired/lint-action@v1
-      with:
-        eslint: true
-
   CodeCov:
     runs-on: ubuntu-latest
     steps:
