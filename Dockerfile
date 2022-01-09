@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR /dist
+WORKDIR /app
 COPY . .
 RUN npm install --only=prod
 EXPOSE 8000
