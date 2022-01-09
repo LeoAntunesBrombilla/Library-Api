@@ -4,10 +4,10 @@
   "description": "Library-Api",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "build": "tsc",
-    "test": "jest ./src/test/* --detectOpenHandles --runInBand --forceExit --coverage",
     "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "test": "jest ./src/test/* --detectOpenHandles --runInBand --forceExit --coverage",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
