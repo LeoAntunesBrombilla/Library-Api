@@ -4,7 +4,7 @@
   "description": "Library-Api",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node dist/index.js",
     "build": "tsc",
     "prepare": "husky install",
     "postinstall": "npm run build",
