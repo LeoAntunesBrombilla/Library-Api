@@ -7,7 +7,6 @@
     "start": "node dist/index.js",
     "build": "tsc",
     "prepare": "husky install",
-    "postinstall": "npm run build",
     "test": "jest ./src/test/* --detectOpenHandles --runInBand --forceExit --coverage",
     "dev": "nodemon index.js",
     "lint": "eslint . --ext .ts",
