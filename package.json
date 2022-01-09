@@ -9,7 +9,7 @@
     "prepare": "husky install",
     "postinstall": "npm run build",
     "test": "jest ./src/test/* --detectOpenHandles --runInBand --forceExit --coverage",
-    "dev": "nodemon src/index.ts",
+    "dev": "ts-node src/index.ts",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
