@@ -11,11 +11,9 @@ RUN ls -a
 
 FROM node:14
 WORKDIR /usr
-RUN ls -a
 COPY package.json ./
 RUN npm install --only=production
 COPY --from=0 /usr/dist ./dist
-RUN ls -a
 
 EXPOSE 8000
 CMD NODE_URLS=http://*:$PORT npm start
