@@ -2,7 +2,9 @@ import request from 'supertest';
 import app from '../index';
 
 describe('GET /', () => {
-  it('responds with Hello World!!', (done) => {
-    request(app).get('/').expect('Hello World!!', done);
+  it('Responds with Hello World from the docker container!!', (done) => {
+    request(app)
+      .get('/')
+      .expect('Hello World from the docker container!!', done);
   });
 });
