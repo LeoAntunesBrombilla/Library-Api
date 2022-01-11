@@ -70,6 +70,6 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: '${{ toJson({{"color": 008000}}) }} Sir github bot here! The {{ EVENT_PAYLOAD.repository.name }} has been deployed.'
+          args: 'Sir github bot here! The {{ EVENT_PAYLOAD.repository.name }} has been deployed.'
 
 
