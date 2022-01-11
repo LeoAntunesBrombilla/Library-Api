@@ -22,7 +22,6 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
-          # Disabling shallow clone is recommended for improving relevancy of reporting
           fetch-depth: 0
       - name: SonarCloud Scan
         uses: actions/checkout@master
@@ -71,6 +70,6 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+          args: '${{ toJson({{"color": 008000}}) }} Sir github bot here! The {{ EVENT_PAYLOAD.repository.name }} has been deployed.'
 
 
