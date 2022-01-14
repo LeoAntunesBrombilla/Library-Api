@@ -4,7 +4,7 @@
 
 ### Technical Specs
 
-- [ x ] CI/CD
+- [x] CI/CD
 - [ ] Test Coverage > 90%
 - [ ] Clean Code
 
