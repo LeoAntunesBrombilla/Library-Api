@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { DeleteUserUseCase } from './DeleteUserUseCase';
-import mongoose from 'mongoose';
 
 class DeleteUserController {
   constructor(private deleteUserUseCase: DeleteUserUseCase) {}
