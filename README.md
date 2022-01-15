@@ -1,5 +1,7 @@
 # Library-Api
 
+[![codecov](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api/branch/main/graph/badge.svg?token=Z72HUXRU90)](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api)
+
 ## A library API with the following features
 
 ### Technical Specs
