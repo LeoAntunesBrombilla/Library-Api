@@ -6,9 +6,9 @@ import { DeleteUserUseCase } from './DeleteUserUseCase';
 export default (): DeleteUserController => {
   const usersRepository = new UsersRepository(User);
 
-  const createUserUseCase = new DeleteUserUseCase(usersRepository);
+  const deleteUserUseCase = new DeleteUserUseCase(usersRepository);
 
-  const createUserController = new DeleteUserController(createUserUseCase);
+  const createUserController = new DeleteUserController(deleteUserUseCase);
 
   return createUserController;
 };
