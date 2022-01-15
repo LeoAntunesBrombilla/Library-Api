@@ -1,20 +1,27 @@
 import express from 'express';
-import { categoriesRoutes } from './routes/categories.routes';
+import 'dotenv/config';
+import { router } from './routes/';
+import Connect from './config/connect';
+import bodyParser from 'body-parser';
+
+const db = process.env.DB_URL;
 
 const app = express();
-const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+if (!db) {
+  process.exit(1);
+}
+
+app.use(router);
+
+Connect({ db });
 
 app.get('/', (req, res) => {
   res.send('Hello World from the docker container!!');
-});
-
-app.use('/categories', categoriesRoutes);
-
-app.listen(PORT, () => {
-  // eslint-disable-next-line no-console
-  console.log('Our app is working!');
 });
 
 export default app;
