@@ -1,6 +1,10 @@
 # Library-Api
 
 [![codecov](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api/branch/main/graph/badge.svg?token=Z72HUXRU90)](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
 
 ## A library API with the following features
 
