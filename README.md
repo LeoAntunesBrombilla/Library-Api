@@ -1,26 +1,40 @@
-# Library-Api
+<p>
+  <h1 align="center"> Library-Api Project :books: </h1>
+<p/>
 
-[![codecov](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api/branch/main/graph/badge.svg?token=Z72HUXRU90)](https://codecov.io/gh/LeoAntunesBrombilla/Library-Api)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LeoAntunesBrombilla_Library-Api)
+<p align="center">
+  <a href="https://codecov.io/gh/LeoAntunesBrombilla/Library-Api">
+   <img src="https://codecov.io/gh/LeoAntunesBrombilla/Library-Api/branch/main/graph/badge.svg?token=Z72HUXRU90"/>
+  </a>
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=alert_status" />
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=bugs" />
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=code_smells" />
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=LeoAntunesBrombilla_Library-Api&metric=duplicated_lines_density" />
+</p>
 
-## A library API with the following features
-
-### Technical Specs
+<p>
+  <h2 align="center"> Technical Objectives </h1>
+<p/>
 
 - [x] CI/CD
 - [ ] Test Coverage > 90%
 - [ ] Clean Code
 
-### Normal Users can
+<p>
+  <h2 align="center"> Features </h2>
+<p/>
+
+<p>
+  <h3> Normal Users can </h3>
+<p/>
 
 - [ ] Read the info about a book
 - [ ] Rent a book
 - [ ] See a list of available books
 
-### Admin Users can
+<p>
+  <h3> Admin Users can </h3>
+<p/>
 
 - [ ] Insert a book on the database
 - [ ] Delete a book on the database
